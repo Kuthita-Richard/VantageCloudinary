@@ -226,7 +226,7 @@ export default function DashboardClient({
             onChange={e => updateCurrency(e.target.value)}
             disabled={pending}
             className="appearance-none border-2 rounded-lg pl-3 pr-8 py-2 text-xs font-semibold
-                       cursor-pointer outline-none disabled:opacity-50 transition-all"
+                      cursor-pointer outline-none disabled:opacity-50 transition-all"
             style={{
               background:  isConverted ? 'color-mix(in oklch, var(--primary) 10%, transparent)' : 'var(--card)',
               borderColor: isConverted ? 'var(--primary)' : 'var(--border)',
